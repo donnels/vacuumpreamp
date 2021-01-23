@@ -15,4 +15,4 @@ docker build -t donnels/openscad:1.0 .
 ```
 docker run --rm --name "openscad" --volume $PWD:/data donnels/openscad:1.0 openscad -o /data/test.png /data/*scad
 ```
-
+![](test.png)
